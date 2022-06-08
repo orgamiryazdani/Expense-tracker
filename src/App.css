@@ -1,0 +1,199 @@
+.App {
+  background-color: #f6f6f6;
+  color: #0d1d2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  font-family: Montserrat;
+}
+
+.topSection {
+  position: relative;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  overflow: auto;
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.topSection p {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 20px;
+}
+
+.topSection span {
+  font-size: 45px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  background-color: #fff;
+  padding: 10px;
+  max-height: 100vh;
+  overflow: auto;
+  margin-top: 20px;
+  box-shadow: 1px 1px 10px 5px rgb(221, 220, 220);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 150px;
+}
+
+.expenseBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 12px 5px rgb(227, 227, 227);
+  justify-content: space-between;
+  height: 60px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .topSection span {
+    font-size: 25px;
+  }
+}
+
+.expenseBox span {
+  font-weight: bold;
+  color: green;
+}
+
+.topSection .btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  outline: none;
+  width: 150px;
+  height: 32px;
+  padding: 5px 10px;
+  border: 2px solid #fff !important;
+  font-size: 17px;
+  background: transparent;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #fc00ff;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  outline: none;
+  padding: 5px 10px;
+  border: 2px solid #fff !important;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 170px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+.radioBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+}
+
+.radioBox label {
+  margin-left: 3px;
+  font-size: 12px;
+}
+
+.transaction {
+  padding: 10px;
+  margin-top: 15px;
+  overflow: auto;
+  font-weight: bold;
+  background-color: #f4f4f5;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 4px solid green;
+}
+
+input.search {
+  width: 100%;
+  margin: 20px 0;
+  display: block;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
